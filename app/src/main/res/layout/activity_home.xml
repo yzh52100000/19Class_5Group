@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clipChildren="false">
+    <LinearLayout
+        android:id="@+id/ls"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:orientation="vertical"
+        ></LinearLayout>
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_alignParentBottom="true"
+        android:background="#fff"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_gravity="bottom"
+        android:id="@+id/radioButton1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:button="@null"
+        android:drawableTop="@mipmap/tab_btn_01_sel_00011"
+        android:gravity="center"
+        android:text="首页"
+        android:textSize="10sp"
+        android:textColor="#00B0FA" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="0dp"
+            android:layout_gravity="bottom"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@mipmap/tab_btn_02_def"
+            android:gravity="center"
+            android:text="授课"
+            android:textSize="10sp"
+            android:textColor="@android:color/darker_gray" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@mipmap/tab_btn_03_def"
+            android:gravity="center"
+            android:text="今日直播"
+            android:textSize="10sp"
+            android:textColor="@android:color/darker_gray" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="0dp"
+            android:layout_gravity="bottom"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@mipmap/tab_btn_04_def"
+            android:gravity="center"
+            android:text="缓存"
+            android:textSize="10sp"
+            android:textColor="@android:color/darker_gray" />
+
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+            android:button="@null"
+            android:drawableTop="@mipmap/tab_btn_05_def"
+            android:gravity="center"
+            android:text="我的"
+            android:textSize="10sp"
+            android:textColor="@android:color/darker_gray" />
+    </RadioGroup>
+
+
+</LinearLayout>
